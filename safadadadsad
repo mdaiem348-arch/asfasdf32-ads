@@ -1,1 +1,8 @@
-loadstring(game:HttpGet("https://files.catbox.moe/en27iy.txt"))()
+if game.GameId ~= 6035872082 then
+    local plr = game:GetService("Players").LocalPlayer
+    if plr then
+        plr:Kick("This script only runs in RIVALS.")
+    end
+    return
+end 
+loadstring(game:HttpGet("https://files.catbox.moe/xqdhou.txt"))()
